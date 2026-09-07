@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# ChromaDB 数据目录
+chroma_data/
+chroma_db/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 前端构建产物
+qian-duan/node_modules/
+qian-duan/dist/
+
+# 知识库/历史大数据（data/ 仅保留被 import 的容量数据模块 data/*.py）
+data/markdown/
+data/raw/
+data/text/
+data/images/
+data/chunks*.json
+data/urls.txt
+
+# 本地临时探查脚本（GBK 乱码，不入库）
+t_scan.py
