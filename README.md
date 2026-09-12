@@ -1,4 +1,4 @@
-# 制冷设备流量选型系统（equipment-agent）
+# 制冷设备流量选型系统（equipment-agent）(初始版-未添加agent)
 
 基于 **质量流量窗口** 直接选型的制冷部件选型工具：输入运行工况与需求制冷量，用
 [CoolProp](http://www.coolprop.org/) 计算需求质量流量 `m_req`，再对候选设备逐个判定其
